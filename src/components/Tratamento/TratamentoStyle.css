@@ -1,0 +1,213 @@
+.container__tratamento {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* DIV DE TEXTO RESIDUOS */
+.title-residuos {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  padding: 42px;
+  margin-top: 5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* FIM */
+
+/* TITULO DA DIV */
+.residuos__gestao {
+  width: 100%;
+  text-align: center;
+  margin-bottom:2rem;
+}
+
+.residuos__gestao>span {
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+
+/* FIM */
+
+
+/* CONTAINER GERAL TRATAMENTO */
+
+.tratamento__processo {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 42px;
+  gap: 64px;
+}
+
+
+
+.processo__title__destinacao>h3,
+.processo__title__tratamento>h3,
+.processo__title__transporte>h3,
+.processo__title>h3 {
+  width: 14rem;
+  padding: 12px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background: var(--primary-color);
+
+
+  cursor: pointer;
+}
+
+
+/* AFTERS */
+
+.processo__title>h3::after {
+  content: '';
+  position: absolute;
+  width: 64px;
+  height: 32px;
+  top: 2.8rem;
+  left: 28.5rem;
+  background-image: url(../../assets/imgs/TratamentoImgs/seta1.gif);
+  background-repeat: no-repeat;
+}
+
+
+.processo__title__transporte>h3::after {
+  content: '';
+  position: absolute;
+  width: 64px;
+  height: 32px;
+  top: 2.8rem;
+  left: 46.5rem;
+  background-image: url(../../assets/imgs/TratamentoImgs/seta1.gif);
+  background-repeat: no-repeat;
+}
+
+
+.processo__title__tratamento>h3::after {
+  content: '';
+  position: absolute;
+  width: 64px;
+  height: 32px;
+  top: 2.8rem;
+  left: 64.5rem;
+  background-image: url(../../assets/imgs/TratamentoImgs/seta1.gif);
+  background-repeat: no-repeat;
+}
+
+
+/* CONTAINERS DESCRIPTION */
+
+.processo__description__destinacao,
+.processo__description__tratamento,
+.processo__description__transporte,
+.processo__description {
+  width: 14rem;
+  background: #D9D9D9;
+  margin-top: .5rem;
+  border-radius: 10px;
+  transition: all 2s;
+
+}
+
+
+.processo__description {
+  overflow: hidden;
+  max-height: 8rem;
+  padding: 8px;
+  transition: max-height .6s ease-in-out; /* Adiciona uma transição suave */
+}
+
+.processo__description.expanded {
+  max-height: 30rem; /* Define a altura máxima quando expandido */
+}
+
+
+/* FIM */
+
+
+
+
+
+/* MEDIA QUERYS */
+
+@media (max-width: 1366px) {}
+
+@media (max-width: 1024px) {
+  .tratamento__processo {
+    gap: 24px;
+  }
+
+  .processo__title__destinacao>h3,
+  .processo__title__tratamento>h3,
+  .processo__title__transporte>h3,
+  .processo__title>h3 {
+    width: 12rem;
+  }
+
+  .processo__description__destinacao,
+  .processo__description__tratamento,
+  .processo__description__transporte,
+  .processo__description {
+    width: 12rem;
+  }
+
+  .processo__title__transporte>h3::after,
+  .processo__title__destinacao>h3::after,
+  .processo__title>h3::after {
+    display: none;
+  }
+
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 418px) {
+  .tratamento__processo {
+    flex-direction: column;
+    margin-top: 8rem;
+  }
+
+  .processo__title__destinacao>h3,
+  .processo__title__tratamento>h3,
+  .processo__title__transporte>h3,
+  .processo__title>h3 {
+    width: 100%;
+  }
+
+  .processo__description__destinacao,
+  .processo__description__tratamento,
+  .processo__description__transporte,
+  .processo__description {
+    width: 100%;
+  }
+
+  .title-residuos {
+    text-align: left;
+  }
+}
+
+@media (max-width: 320px) {
+  .tratamento__processo {
+    flex-direction: column;
+    margin-top: 13rem;
+  }
+
+  .processo__title__destinacao>h3,
+  .processo__title__tratamento>h3,
+  .processo__title__transporte>h3,
+  .processo__title>h3 {
+    width: 100%;
+  }
+
+  .processo__description__destinacao,
+  .processo__description__tratamento,
+  .processo__description__transporte,
+  .processo__description {
+    width: 100%;
+  }
+}

@@ -1,0 +1,145 @@
+
+/* CONTAINER PRINCIPAL */
+.container-navBar {
+    width: 100vw;
+    height: 4.75rem ;
+    display: flex;
+    align-items: center;
+    box-shadow: .5px .5px 5px   rgba(0, 0, 0, 0.281)
+}
+
+/* FIM */
+
+/* ---------------------------------------------- */
+
+
+/* ESTILIZAÇÃO DA IMAGEM LOGO DO SITE  */
+.navBar-logo-container {
+    width: 40%;
+    padding: 2.625rem;
+}
+
+.navBar-logo-container>img {
+    width: 10rem;
+}
+
+/* FIM  */
+
+
+/* ----------------------------------------------- */
+
+
+/* ESTILIZAÇÃO DA LISTA DE NAVEGAÇÃO */
+
+.navBar-list-link {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+
+.link-container {
+    display: flex;
+    gap: 32px;
+}
+
+.gp-navBar-link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+
+
+/* FIM */
+
+
+
+
+
+
+
+/* RESPOSIVIDADE */
+
+
+
+
+
+@media (max-width: 1366px) {}
+
+@media (max-width: 1024px) {
+    .navBar-list-link {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 418px) {
+
+    .container-navBar {
+        height: 6.75rem ;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navBar-logo-container {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .navBar-logo-container>img {
+        width: 8rem;
+    }
+
+    .navBar-list-link {
+        width: 100%;
+        padding-bottom:1rem ;
+
+        justify-content: center;
+        font-size: .7em;
+    }
+
+    .link-container {
+        gap: 16px;
+    }
+
+
+}
+
+@media (max-width: 360px) {
+    .container-navBar {
+        height: 6.75rem ;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navBar-logo-container {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .navBar-logo-container>img {
+        width: 7rem;
+    }
+
+    .navBar-list-link {
+        width: 100%;
+        padding-bottom:1rem ;
+
+        justify-content: center;
+        font-size: .65em;
+    }
+
+    .link-container {
+        gap: 8px;
+    }
+
+}
+

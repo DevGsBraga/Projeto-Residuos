@@ -1,0 +1,28 @@
+/* CONTAINER PRINCIPAL BACKGROUND */
+
+.container-Sobre__bg {
+    width: 100vw;
+    height: 653px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+
+
+    background-image: url(../../assets/imgs/Sobre/bg-sobre.svg);
+    border: 2px solid black;
+}
+
+
+
+/* CONTAINER DA IMAGEM */
+.sobre-img-principal {
+    padding: 42px;
+    width: 70%;
+}
+.sobre-img-principal>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FIM */
