@@ -266,6 +266,12 @@
     width: 100%;
   }
 
+  .processo__title__transporte>h3::after,
+  .processo__title__destinacao>h3::after,
+  .processo__title>h3::after {
+    display: none;
+  }
+
   .title-residuos {
     text-align: left;
   }
@@ -289,5 +295,11 @@
   .processo__description__transporte,
   .processo__description {
     width: 100%;
+  }
+
+  .processo__title__transporte>h3::after,
+  .processo__title__destinacao>h3::after,
+  .processo__title>h3::after {
+    display: none;
   }
 }
