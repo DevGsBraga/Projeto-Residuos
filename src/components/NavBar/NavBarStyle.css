@@ -77,9 +77,22 @@
 
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 768px) {
+    .navBar-logo-container {
+        width: 100%;
+    }
+    .navBar-list-link {
+        font-size: 1em;
+    }
+    .link-container {
+        width: 100vw;
+        gap: 16px;
+    }
 
-@media (max-width: 418px) {
+
+}
+
+@media (max-width: 428px) {
 
     .container-navBar {
         height: 6.75rem ;

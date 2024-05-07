@@ -135,7 +135,62 @@
 
 /* MEDIA QUERYS */
 
-@media (max-width: 1366px) {}
+
+
+/* @media (max-width: 1925px) {
+
+  .processo__title>h3::after {
+    left: 40.5rem;
+  }
+
+
+  .processo__title__transporte>h3::after {
+    left: 58.5rem;
+  }
+
+
+  .processo__title__tratamento>h3::after {
+    left: 76.5rem;
+  }
+
+} */
+
+
+@media (max-width: 1445px) {
+
+  .processo__title>h3::after {
+    left: 25.5rem;
+  }
+
+
+  .processo__title__transporte>h3::after {
+    left: 43.5rem;
+  }
+
+
+  .processo__title__tratamento>h3::after {
+    left: 61.5rem;
+  }
+
+}
+
+@media (max-width: 1368px) {
+
+  .processo__title>h3::after {
+    left: 23rem;
+  }
+
+
+  .processo__title__transporte>h3::after {
+    left: 41rem;
+  }
+
+
+  .processo__title__tratamento>h3::after {
+    left: 59rem;
+  }
+
+}
 
 @media (max-width: 1024px) {
   .tratamento__processo {
@@ -146,14 +201,14 @@
   .processo__title__tratamento>h3,
   .processo__title__transporte>h3,
   .processo__title>h3 {
-    width: 12rem;
+    width: 11rem;
   }
 
   .processo__description__destinacao,
   .processo__description__tratamento,
   .processo__description__transporte,
   .processo__description {
-    width: 12rem;
+    width: 11rem;
   }
 
   .processo__title__transporte>h3::after,
@@ -164,9 +219,34 @@
 
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 768px) {
+  .tratamento__processo {
+    gap: 12px;
+  }
 
-@media (max-width: 418px) {
+  .processo__title__destinacao>h3,
+  .processo__title__tratamento>h3,
+  .processo__title__transporte>h3,
+  .processo__title>h3 {
+    width: 11rem;
+  }
+
+  .processo__description__destinacao,
+  .processo__description__tratamento,
+  .processo__description__transporte,
+  .processo__description {
+    width: 11rem;
+  }
+
+  .processo__title__transporte>h3::after,
+  .processo__title__destinacao>h3::after,
+  .processo__title>h3::after {
+    display: none;
+  }
+
+}
+
+@media (max-width: 428px) {
   .tratamento__processo {
     flex-direction: column;
     margin-top: 8rem;

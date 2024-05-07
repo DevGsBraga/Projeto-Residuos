@@ -99,7 +99,7 @@ const finalAltura = () => {
                       <div>
                           <img src={truck} alt="" />
                       </div>
-                    Após a coleta, é essencial garantir o transporte seguro e adequado dos resíduos para suas destinações finais. Nosso serviço de transporte de resíduos é realizado por profissionais qualificados e equipados com veículos especializados, seguindo rigorosos padrões de segurança e regulamentações ambientais. Priorizamos a eficiência logística e a pontualidade para garantir que os resíduos sejam entregues de forma rápida e responsável.
+                    Após a coleta, é essencial garantir o transporte seguro e adequado dos resíduos para suas destinações finais. <br /> <br /> Nosso serviço de transporte de resíduos é realizado por profissionais qualificados e equipados com veículos especializados, seguindo rigorosos padrões de segurança e regulamentações ambientais. Priorizamos a eficiência logística e a pontualidade para garantir que os resíduos sejam entregues de forma rápida e responsável.
                     </div>
 
                   </div>
@@ -117,7 +117,7 @@ const finalAltura = () => {
                   <div>
                     <img src={recicle} alt="" />
                   </div>
-              O tratamento de resíduos é uma etapa fundamental no processo de gestão de resíduos, visando minimizar seu impacto ambiental e maximizar sua recuperação e reciclagem. Nossa empresa emprega tecnologias avançadas de tratamento de resíduos, incluindo processos físicos, químicos e biológicos, para transformar os resíduos de forma segura e sustentável. Priorizamos soluções inovadoras que promovem a redução, reutilização e reciclagem de resíduos, contribuindo para a preservação do meio ambiente e o desenvolvimento sustentável.
+              O tratamento de resíduos é uma etapa fundamental no processo de gestão de resíduos, visando minimizar seu impacto ambiental e maximizar sua recuperação e reciclagem. <br /> Nossa empresa emprega tecnologias avançadas de tratamento de resíduos, incluindo processos físicos, químicos e biológicos, para transformar os resíduos de forma segura e sustentável. Priorizamos soluções inovadoras que promovem a redução, reutilização e reciclagem de resíduos, contribuindo para a preservação do meio ambiente e o desenvolvimento sustentável.
               </div>
 
       </div>
@@ -137,7 +137,7 @@ const finalAltura = () => {
                     <img src={planta} alt="" />
                   </div>
 
-                    Quando os resíduos não podem ser reciclados ou tratados de outras maneiras, a destinação final em aterros sanitários é uma opção segura e regulamentada.
+                    Quando os resíduos não podem ser reciclados ou tratados de outras maneiras, a destinação final em aterros sanitários é uma opção segura e regulamentada. <br />
                     Nossa empresa opera aterros modernos e ambientalmente responsáveis, projetados para minimizar os impactos negativos no solo, na água e no ar. Seguimos todas as normas e regulamentações locais e nacionais para garantir a segurança e a integridade dos aterros, protegendo assim o meio ambiente e a saúde pública a longo prazo.
                   </div>
 
