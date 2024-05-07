@@ -1,6 +1,29 @@
 #container-app {
+    width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+
+
+@media (max-width: 768px) {
+    #container-app {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 428px) {
+    #container-app {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 328px) {
+    #container-app {
+        width: 100vw;
+        overflow-x: hidden;
+    }
 }
