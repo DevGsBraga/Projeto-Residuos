@@ -22,6 +22,7 @@
 }
 
 body {
+  width: 100vw;
   font-family: var(--primary-font);
   overflow-x: hidden;
 }
@@ -30,29 +31,6 @@ body {
 
 
 
-@media (max-width: 1025px) {
-  body {
-    overflow: hidden;
-  }
-}
 
-
-@media (max-width: 768px) {
-  body {
-    overflow: hidden;
-  }
-}
-
-@media (max-width: 428px) {
-  body {
-    overflow: hidden;
-  }
-}
-
-@media (max-width: 328px) {
-  body {
-    overflow: hidden;
-  }
-}
 
 
