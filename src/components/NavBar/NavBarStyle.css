@@ -79,7 +79,7 @@
 
 @media (max-width: 768px) {
     .navBar-logo-container {
-        width: 100%;
+        width: 100vw;
     }
     .navBar-list-link {
         font-size: 1em;
