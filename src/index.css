@@ -27,3 +27,32 @@ body {
 }
 
 
+
+
+
+@media (max-width: 1025px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 428px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 328px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+
