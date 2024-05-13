@@ -10,7 +10,8 @@ const Home = () => {
         <NavBar />
         <BannerPrincipal />
           <TratamentoContain />
-          
+
+
         {/* <SobreContain /> */}
 
 

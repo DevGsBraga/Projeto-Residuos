@@ -1,8 +1,7 @@
 /* BANNER PRINCIPAL */
 #container-principal-banner {
-    max-width: 100%;
-    margin: 0 auto;
-    height: 72vh;
+    width: 100vw;
+    height: 462px;
     display: flex;
 
 
@@ -63,11 +62,27 @@
 
 /* MEDIA QUERYS */
 
-@media (max-width: 1366px) {}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1366px) {
+    #container-principal-banner {
+        height: 30rem;
+    }
+    .banner-left-text {
+
+        padding: 32px 10px;
+    }
+}
 
 @media (max-width: 1024px) {
     #container-principal-banner {
-        max-width: 100%;
         height: 40rem;
     }
     .banner-left-text {
@@ -77,15 +92,10 @@
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) {}
 
-
-}
-
-@media (max-width: 428px) {
+@media (max-width: 418px) {
     #container-principal-banner {
-        max-width: 100%;
-        margin: 0 auto;
         height: 65rem;
         display: flex;
         flex-direction: column;

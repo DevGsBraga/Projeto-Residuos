@@ -43,6 +43,11 @@ const finalAltura = () => {
 
 
 
+// FUNÇÃO DE HOVER SOBRE O TITULO DOS PROCESSO
+
+
+
+
 
 
 
@@ -76,8 +81,9 @@ const finalAltura = () => {
 
         <div className="tratamento__processo">
 
-            <div className="processo__title" onClick={funcaoDeClick}>
-              <h3>Coleta</h3>
+            <div className="processo__title" >
+              <h3 onClick={funcaoDeClick}>Coleta</h3>
+
               <div className={alturaDescription ? "processo__description expanded" : "processo__description"}>
                   <div>
                     <img src={coleta} alt="" />
@@ -93,13 +99,13 @@ const finalAltura = () => {
 
       {/* DIV TRANSPORTE */}
 
-                  <div className="processo__title__transporte" onClick={transporteAltura}>
-                    <h3>Transporte</h3>
+                  <div className="processo__title__transporte" >
+                    <h3 onClick={transporteAltura}>Transporte</h3>
                     <div className={transporte ? "processo__description expanded" : "processo__description"}>
                       <div>
                           <img src={truck} alt="" />
                       </div>
-                    Após a coleta, é essencial garantir o transporte seguro e adequado dos resíduos para suas destinações finais. <br /> <br /> Nosso serviço de transporte de resíduos é realizado por profissionais qualificados e equipados com veículos especializados, seguindo rigorosos padrões de segurança e regulamentações ambientais. Priorizamos a eficiência logística e a pontualidade para garantir que os resíduos sejam entregues de forma rápida e responsável.
+                    Após a coleta, é essencial garantir o transporte seguro e adequado dos resíduos para suas destinações finais. Nosso serviço de transporte de resíduos é realizado por profissionais qualificados e equipados com veículos especializados, seguindo rigorosos padrões de segurança e regulamentações ambientais. Priorizamos a eficiência logística e a pontualidade para garantir que os resíduos sejam entregues de forma rápida e responsável.
                     </div>
 
                   </div>
@@ -109,15 +115,15 @@ const finalAltura = () => {
 
       {/* DIV TRATAMENTO */}
 
-      <div className="processo__title__tratamento" onClick={tratamentoAltura}>
+      <div className="processo__title__tratamento" >
 
-          <h3>Tratamento</h3>
+          <h3 onClick={tratamentoAltura}>Tratamento</h3>
               <div className={tratamento ? "processo__description expanded" : "processo__description"} >
 
                   <div>
                     <img src={recicle} alt="" />
                   </div>
-              O tratamento de resíduos é uma etapa fundamental no processo de gestão de resíduos, visando minimizar seu impacto ambiental e maximizar sua recuperação e reciclagem. <br /> Nossa empresa emprega tecnologias avançadas de tratamento de resíduos, incluindo processos físicos, químicos e biológicos, para transformar os resíduos de forma segura e sustentável. Priorizamos soluções inovadoras que promovem a redução, reutilização e reciclagem de resíduos, contribuindo para a preservação do meio ambiente e o desenvolvimento sustentável.
+              O tratamento de resíduos é uma etapa fundamental no processo de gestão de resíduos, visando minimizar seu impacto ambiental e maximizar sua recuperação e reciclagem. Nossa empresa emprega tecnologias avançadas de tratamento de resíduos, incluindo processos físicos, químicos e biológicos, para transformar os resíduos de forma segura e sustentável. Priorizamos soluções inovadoras que promovem a redução, reutilização e reciclagem de resíduos, contribuindo para a preservação do meio ambiente e o desenvolvimento sustentável.
               </div>
 
       </div>
@@ -128,16 +134,16 @@ const finalAltura = () => {
 
       {/* DIV DESTINAÇÃO FINAL */}
 
-          <div className="processo__title__destinacao" onClick={finalAltura}>
+          <div className="processo__title__destinacao" >
 
-              <h3>Destinação Final</h3>
+              <h3 onClick={finalAltura}>Destinação Final</h3>
                   <div className={final ? "processo__description expanded" : "processo__description"}>
 
                   <div>
                     <img src={planta} alt="" />
                   </div>
 
-                    Quando os resíduos não podem ser reciclados ou tratados de outras maneiras, a destinação final em aterros sanitários é uma opção segura e regulamentada. <br />
+                    Quando os resíduos não podem ser reciclados ou tratados de outras maneiras, a destinação final em aterros sanitários é uma opção segura e regulamentada.
                     Nossa empresa opera aterros modernos e ambientalmente responsáveis, projetados para minimizar os impactos negativos no solo, na água e no ar. Seguimos todas as normas e regulamentações locais e nacionais para garantir a segurança e a integridade dos aterros, protegendo assim o meio ambiente e a saúde pública a longo prazo.
                   </div>
 

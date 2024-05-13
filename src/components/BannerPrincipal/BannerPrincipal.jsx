@@ -38,7 +38,7 @@ const BannerPrincipal = () => {
             </div>
     </div>
 
-            
+
 </>
   )
 }

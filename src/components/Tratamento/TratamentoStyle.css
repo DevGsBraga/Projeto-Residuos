@@ -62,6 +62,12 @@
 }
 
 
+
+
+
+
+
+
 /* AFTERS */
 
 .processo__title>h3::after {
@@ -123,7 +129,7 @@
 }
 
 .processo__description.expanded {
-  max-height: 30rem; /* Define a altura máxima quando expandido */
+  max-height: 100%; /* Define a altura máxima quando expandido */
 }
 
 
@@ -135,14 +141,28 @@
 
 /* MEDIA QUERYS */
 
+@media (min-width: 2000px) and (max-width: 2560px)  {
+  .processo__title>h3::after {
+    left: 60.5rem;
+  }
+
+  .processo__title__transporte>h3::after {
+    left: 78.5rem;
+  }
 
 
-/* @media (max-width: 1925px) {
+  .processo__title__tratamento>h3::after {
+    left: 96.5rem;
 
+  }
+}
+
+
+
+@media (min-width: 1760px) and (max-width: 1980px)  {
   .processo__title>h3::after {
     left: 40.5rem;
   }
-
 
   .processo__title__transporte>h3::after {
     left: 58.5rem;
@@ -151,44 +171,33 @@
 
   .processo__title__tratamento>h3::after {
     left: 76.5rem;
+
   }
-
-} */
-
-
-@media (max-width: 1445px) {
-
-  .processo__title>h3::after {
-    left: 25.5rem;
-  }
-
-
-  .processo__title__transporte>h3::after {
-    left: 43.5rem;
-  }
-
-
-  .processo__title__tratamento>h3::after {
-    left: 61.5rem;
-  }
-
 }
 
-@media (max-width: 1368px) {
 
+
+
+
+
+
+
+
+@media (max-width: 1360px) {
   .processo__title>h3::after {
-    left: 23rem;
+    left: 20.5rem;
   }
 
-
   .processo__title__transporte>h3::after {
-    left: 41rem;
+    left: 38.5rem;
   }
 
 
   .processo__title__tratamento>h3::after {
-    left: 59rem;
+    left: 56.5rem;
   }
+
+
 
 }
 
@@ -201,14 +210,14 @@
   .processo__title__tratamento>h3,
   .processo__title__transporte>h3,
   .processo__title>h3 {
-    width: 11rem;
+    width: 12rem;
   }
 
   .processo__description__destinacao,
   .processo__description__tratamento,
   .processo__description__transporte,
   .processo__description {
-    width: 11rem;
+    width: 12rem;
   }
 
   .processo__title__transporte>h3::after,
@@ -219,34 +228,9 @@
 
 }
 
-@media (max-width: 768px) {
-  .tratamento__processo {
-    gap: 12px;
-  }
+@media (max-width: 767px) {}
 
-  .processo__title__destinacao>h3,
-  .processo__title__tratamento>h3,
-  .processo__title__transporte>h3,
-  .processo__title>h3 {
-    width: 11rem;
-  }
-
-  .processo__description__destinacao,
-  .processo__description__tratamento,
-  .processo__description__transporte,
-  .processo__description {
-    width: 11rem;
-  }
-
-  .processo__title__transporte>h3::after,
-  .processo__title__destinacao>h3::after,
-  .processo__title>h3::after {
-    display: none;
-  }
-
-}
-
-@media (max-width: 428px) {
+@media (max-width: 418px) {
   .tratamento__processo {
     flex-direction: column;
     margin-top: 8rem;
@@ -264,12 +248,6 @@
   .processo__description__transporte,
   .processo__description {
     width: 100%;
-  }
-
-  .processo__title__transporte>h3::after,
-  .processo__title__destinacao>h3::after,
-  .processo__title>h3::after {
-    display: none;
   }
 
   .title-residuos {
@@ -295,11 +273,5 @@
   .processo__description__transporte,
   .processo__description {
     width: 100%;
-  }
-
-  .processo__title__transporte>h3::after,
-  .processo__title__destinacao>h3::after,
-  .processo__title>h3::after {
-    display: none;
   }
 }
