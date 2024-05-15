@@ -38,6 +38,7 @@
 .tratamento__processo {
   position: relative;
   width: 100vw;
+  height: 100%;
   display: flex;
   justify-content: center;
   padding: 42px;
@@ -113,11 +114,11 @@
 .processo__description__transporte,
 .processo__description {
   width: 14rem;
+  height: auto;
   background: #D9D9D9;
   margin-top: .5rem;
   border-radius: 10px;
-  transition: all 2s;
-
+  transition: all .3s ease-in-out;
 }
 
 
@@ -176,14 +177,42 @@
 }
 
 
+@media (max-width: 1448px) {
+
+  .processo__title>h3::after {
+    left: 25.5rem;
+  }
+
+  .processo__title__transporte>h3::after {
+    left: 43.5rem;
+  }
+
+
+  .processo__title__tratamento>h3::after {
+    left: 61.5rem;
+  }
+
+}
 
 
 
+@media (max-width: 1368px) {
+  .processo__title>h3::after {
+    left: 23rem;
+  }
+
+  .processo__title__transporte>h3::after {
+    left: 41rem;
+  }
 
 
+  .processo__title__tratamento>h3::after {
+    left: 59rem;
+  }
 
+}
 
-@media (max-width: 1360px) {
+@media (max-width: 1288px) {
   .processo__title>h3::after {
     left: 20.5rem;
   }
@@ -197,27 +226,26 @@
     left: 56.5rem;
   }
 
-
-
 }
+
 
 @media (max-width: 1024px) {
   .tratamento__processo {
-    gap: 24px;
+    gap: 22px;
   }
 
   .processo__title__destinacao>h3,
   .processo__title__tratamento>h3,
   .processo__title__transporte>h3,
   .processo__title>h3 {
-    width: 12rem;
+    width: 11rem;
   }
 
   .processo__description__destinacao,
   .processo__description__tratamento,
   .processo__description__transporte,
   .processo__description {
-    width: 12rem;
+    width: 11rem;
   }
 
   .processo__title__transporte>h3::after,

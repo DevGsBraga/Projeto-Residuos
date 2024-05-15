@@ -1,0 +1,72 @@
+#container-residuos {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background: #F0F0F1;
+}
+
+/* DIV DOS TITULOS */
+.residuos-title {
+    width: 100%;
+    padding: 42px;
+    text-align: center;
+}
+
+.residuos-title>span {
+    font-size: 1.4em;
+}
+
+.residuos-title>p {
+    font-size: 1.1em;
+    margin-top: 26px;
+}
+
+
+
+/* DIV DOS TIPOS DE RESIDUOS */
+.residuos-types {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+
+    grid-gap: 24px;
+}
+
+
+
+/* MEDIA QUERYS */
+@media (max-width: 1024px) {
+    #container-residuos {
+
+    }
+    .residuos-types {
+        width: 60%;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+    }
+}
+
+
+@media (max-width: 418px) {
+    #container-residuos {
+        margin-top: 36rem;
+        height: 102rem;
+    }
+    .residuos-types {
+        width: 60%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 16px;
+    }
+}
+
+
+
+
+
