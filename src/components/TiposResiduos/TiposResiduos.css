@@ -3,7 +3,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-
+    
     background: #F0F0F1;
 }
 
@@ -41,9 +41,7 @@
 
 /* MEDIA QUERYS */
 @media (max-width: 1024px) {
-    #container-residuos {
 
-    }
     .residuos-types {
         width: 60%;
         margin: 0 auto;

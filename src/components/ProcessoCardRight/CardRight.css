@@ -1,0 +1,30 @@
+#container-card-right {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 42px;
+}
+
+
+.card-right-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card-right-description>h2 {
+    padding: 12px;
+}
+
+.card-right-description>p {
+    line-height: 1.7;
+}
+
+
+.card-right-img {
+    width: 30rem;
+    border-radius: 10px;
+}

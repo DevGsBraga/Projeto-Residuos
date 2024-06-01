@@ -25,19 +25,16 @@ const TiposResiduos = () => {
 
             {/* CONTAINER DE TIPOS DE RESIDUOS */}
                 <div className='residuos-types'>
-                    
+
                     <ResiduoCard title={'Hospitalar'} img={hospitalar} />
                     <ResiduoCard title={'Industrial'} img={hospitalar} />
-                    <ResiduoCard title={'Clinia'} img={hospitalar} />
-                    <ResiduoCard title={'Clinia'} img={hospitalar} />
+                    <ResiduoCard title={'Clinica'} img={hospitalar} />
+                    <ResiduoCard title={'Home Care'} img={hospitalar} />
 
-                    <ResiduoCard title={'Clinia'} img={hospitalar} />
-                    <ResiduoCard title={'Clinia'} img={hospitalar} />
-                    <ResiduoCard title={'Clinia'} img={hospitalar} />
-                    <ResiduoCard title={'Clinia'} img={hospitalar} />
-
-
-
+                    <ResiduoCard title={'Unidade Básica de Saúde'} img={hospitalar} />
+                    <ResiduoCard title={'Veterinário'} img={hospitalar} />
+                    <ResiduoCard title={'Zoonoses'} img={hospitalar} />
+                    <ResiduoCard title={'Clinica'} img={hospitalar} />
 
 
                 </div>

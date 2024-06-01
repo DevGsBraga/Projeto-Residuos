@@ -6,7 +6,7 @@
 /* DIV DE TEXTO RESIDUOS */
 .title-residuos {
   width: 100vw;
-  height: 20vh;
+  height: 22vh;
   display: flex;
   flex-direction: column;
   padding: 42px;
@@ -26,7 +26,7 @@
 
 .residuos__gestao>span {
   font-weight: 400;
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 
 
@@ -124,13 +124,14 @@
 
 .processo__description {
   overflow: hidden;
-  max-height: 8rem;
+  max-height:8rem ;
   padding: 8px;
-  transition: max-height .6s ease-in-out; /* Adiciona uma transição suave */
+  transition: max-height .6s ease-in-out /* Adiciona uma transição suave */
 }
 
 .processo__description.expanded {
   max-height: 100%; /* Define a altura máxima quando expandido */
+  overflow-y: hidden;
 }
 
 

@@ -1,5 +1,6 @@
 import './BannerStyle.css';
 
+import AnimaBannerPrincipal from '../../Animacoes/AnimaBannerPrincipal';
 
 // IMAGENS
 import PrincipalB from '../../assets/imgs/Banners/principal.svg';
@@ -7,7 +8,7 @@ import PrincipalB from '../../assets/imgs/Banners/principal.svg';
 const BannerPrincipal = () => {
   return (
 <>
-
+    <AnimaBannerPrincipal>
     <div id="container-principal-banner">
 
         <div className="banner-left-text">
@@ -37,7 +38,7 @@ const BannerPrincipal = () => {
                 <img src={PrincipalB} alt="" />
             </div>
     </div>
-
+</AnimaBannerPrincipal>
 
 </>
   )

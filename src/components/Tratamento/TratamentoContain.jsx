@@ -1,12 +1,6 @@
 import { useState } from 'react';
 import './TratamentoStyle.css';
 
-import lottie from "lottie-web";
-import { defineElement } from "@lordicon/element";
-
-// define "lord-icon" custom element with default properties
-defineElement(lottie.loadAnimation);
-
 
 // FOTOS
 import coleta from '../../assets/imgs/TratamentoImgs/Coleta.gif'
@@ -67,16 +61,19 @@ const finalAltura = () => {
 <div className="container__tratamento">
 
 
+
     <div className='title-residuos'>
 
       <div className="residuos__gestao">
         <span>Gestão de <b style={{ color: '#006D2E' }}>Resíduos</b></span>
       </div>
 
+
         <span>
           O tratamento de resíduos é essencial na gestão ambiental, buscando reduzir impactos negativos da produção de lixo. Envolve coleta seletiva, compostagem, incineração e reciclagem. Esses processos visam minimizar resíduos em aterros sanitários, promover a sustentabilidade e preservar o meio ambiente.
         </span>
     </div>
+
 
 
         <div className="tratamento__processo">
@@ -105,7 +102,7 @@ const finalAltura = () => {
                       <div>
                           <img src={truck} alt="" />
                       </div>
-                    Após a coleta, é essencial garantir o transporte seguro e adequado dos resíduos para suas destinações finais. Nosso serviço de transporte de resíduos é realizado por profissionais qualificados e equipados com veículos especializados, seguindo rigorosos padrões de segurança e regulamentações ambientais. Priorizamos a eficiência logística e a pontualidade para garantir que os resíduos sejam entregues de forma rápida e responsável.
+                      Após a coleta, é essencial garantir o transporte seguro e adequado dos resíduos para suas destinações finais. Nosso serviço de transporte de resíduos é realizado por profissionais qualificados e equipados com veículos especializados, seguindo rigorosos padrões de segurança e regulamentações ambientais. Priorizamos a eficiência logística e a pontualidade para garantir que os resíduos sejam entregues de forma rápida e responsável.
                     </div>
 
                   </div>
@@ -123,7 +120,7 @@ const finalAltura = () => {
                   <div>
                     <img src={recicle} alt="" />
                   </div>
-              O tratamento de resíduos é uma etapa fundamental no processo de gestão de resíduos, visando minimizar seu impacto ambiental e maximizar sua recuperação e reciclagem. Nossa empresa emprega tecnologias avançadas de tratamento de resíduos, incluindo processos físicos, químicos e biológicos, para transformar os resíduos de forma segura e sustentável. Priorizamos soluções inovadoras que promovem a redução, reutilização e reciclagem de resíduos, contribuindo para a preservação do meio ambiente e o desenvolvimento sustentável.
+               O tratamento de resíduos é uma etapa fundamental no processo de gestão de resíduos, visando minimizar seu impacto ambiental e maximizar sua recuperação e reciclagem. <br /> <br /> Nossa empresa emprega tecnologias avançadas de tratamento de resíduos, incluindo processos físicos, químicos e biológicos, para transformar os resíduos de forma segura e sustentável.
               </div>
 
       </div>
