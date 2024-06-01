@@ -63,6 +63,13 @@
 }
 
 
+.processo__title__destinacao>h3:hover,
+.processo__title__transporte>h3:hover,
+.processo__title__tratamento>h3:hover,
+.processo__title>h3:hover {
+  box-shadow: 2px 2px 2px #00ff22;
+}
+
 
 
 

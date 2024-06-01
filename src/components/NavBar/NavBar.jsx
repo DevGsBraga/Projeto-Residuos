@@ -15,7 +15,7 @@ const NavBar = () => {
 
 
     useEffect(() => {
-        
+
         // Adiciona classe ao body quando a barra de navegação atinge o topo da página para deixar ela fixa
         const handleScroll = () => {
             const navBar = document.querySelector('.container-navBar');
@@ -74,7 +74,7 @@ const NavBar = () => {
                             </li>
 
                             <li>
-                            <Link className='gp-navBar-link' to={'/'}>
+                            <Link className='gp-navBar-link' to={'/politicaambiental'}>
                                 Política ambiental
                             </Link>
                             </li>
