@@ -7,6 +7,8 @@ import coleta from '../../assets/imgs/TratamentoImgs/Coleta.gif'
 import truck from '../../assets/imgs/TratamentoImgs/truck.gif'
 import recicle from '../../assets/imgs/TratamentoImgs/recicle.gif'
 import planta from '../../assets/imgs/TratamentoImgs/planta.gif'
+import { DeslizaBaixo } from '../../Animacoes/DeslizaBaixo';
+import {DeslizaDireita} from '../../Animacoes/DeslizaDireita'
 
 const TratamentoContain = () => {
 
@@ -42,12 +44,11 @@ const finalAltura = () => {
 
 
 
-  return (
-<>
-
+return (
+  <>
 <div className="container__tratamento">
 
-
+<DeslizaBaixo>
 
     <div className='title-residuos'>
 
@@ -61,9 +62,13 @@ const finalAltura = () => {
         </span>
     </div>
 
+</DeslizaBaixo>
 
 
+
+          <DeslizaDireita>
         <div className="tratamento__processo">
+
 
             <div className="processo__title" >
               <h3 onClick={funcaoDeClick}>Coleta</h3>
@@ -118,6 +123,7 @@ const finalAltura = () => {
 
       {/* DIV DESTINAÇÃO FINAL */}
 
+
           <div className="processo__title__destinacao" >
 
               <h3 onClick={finalAltura}>Destinação Final</h3>
@@ -143,29 +149,14 @@ const finalAltura = () => {
 
 
 
+
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          </DeslizaDireita>
 
 
 
 </div>
+
 </>
   )
 }
