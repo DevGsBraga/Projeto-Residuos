@@ -2,15 +2,15 @@
 
 .container-Sobre__bg {
     width: 100vw;
-    height: 653px;
+    height: 853px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 15rem;
 
 
     background-image: url(../../assets/imgs/Sobre/bg-sobre.svg);
-    border: 2px solid black;
+    background-size: cover;
+
+    color: white;
 }
 
 
