@@ -16,7 +16,7 @@ const DeslizaEsquerda = ({children}) => {
         justifyContent: 'center',
         alignItems: 'center',
     }}
-        data-aos="fade-left" data-aos-easing="linear" data-aos-duration="400" // animação
+        data-aos="fade-left" data-aos-easing="linear" data-aos-delay="450" // animação
     >
         {children}
     </div>
