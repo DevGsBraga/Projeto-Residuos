@@ -15,7 +15,7 @@ export const DeslizaBaixo = ({children}) => {
         justifyContent: 'center',
         alignItems: 'center',
     }}
-        data-aos="fade-down" data-aos-easing="linear" data-aos-delay="350"  // animação
+        data-aos="fade-down" data-aos-easing="linear" data-aos-delay="250"  // animação
     >
         {children}
     </div>
