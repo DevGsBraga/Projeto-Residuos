@@ -21,9 +21,11 @@ const ProcessoContain = () => {
 <>
        <div id="processo_contain" >
         <DeslizaBaixo>
-            
+
             <div className='processo-title'>
-                <span className='title-span'>Conheça nosso Processo</span>
+                <span className='title-span'>Conheça nosso <b style={{color: '#006D2E'}}>Processo</b></span>
+
+                <hr className='hr-barra' />
             </div>
 
         </DeslizaBaixo>

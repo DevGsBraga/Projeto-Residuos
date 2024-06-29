@@ -2,6 +2,7 @@
 
 #processo_contain {
     width: 100vw;
+    max-width: 1980px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -13,10 +14,16 @@
 .processo-title {
     width: 100%;
     text-align: center;
-    padding: 123px;
+    padding: 103px;
 }
 
 .title-span {
     font-size: 1.5em;
+}
+
+.hr-barra {
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 1rem;
 }
 

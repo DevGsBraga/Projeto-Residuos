@@ -1,15 +1,17 @@
 #container-residuos {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    
+
     background: #F0F0F1;
 }
 
 /* DIV DOS TITULOS */
 .residuos-title {
     width: 100%;
+    max-width: 1980px;
+    margin: 0 auto;
     padding: 42px;
     text-align: center;
 }
@@ -31,9 +33,6 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    align-items: center;
-
     grid-gap: 24px;
 }
 

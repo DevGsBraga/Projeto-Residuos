@@ -1,8 +1,8 @@
 #container-card-right {
-    width: 90%;
+    width: 100%;
+    max-width: 1980px;
     height: 500px;
     display: flex;
-    align-items: center;
     justify-content: center;
     padding: 42px;
 }
@@ -33,9 +33,10 @@
 
 /* RESPONSIVIDADE */
 
-@media (min-width: 378px) and (max-width: 768px) {
+@media (max-width: 768px) {
     #container-card-right {
         flex-wrap: wrap-reverse;
+        margin-top: 5rem;
     }
 
     .card-right-description {
